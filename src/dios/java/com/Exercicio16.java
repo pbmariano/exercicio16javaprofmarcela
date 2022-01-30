@@ -8,7 +8,8 @@ public class Exercicio16 {
         num3 = num1 + num2;
         num1 = num2;
         num2 = num3;
-        System.out.println(num3);
+        if(num3 > 500){
+        System.out.println(num3);}
     }
     }
 }
